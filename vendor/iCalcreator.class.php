@@ -1,5 +1,5 @@
 <?php
-require_once(TL_ROOT . '/system/helper/mbstring.php' ); 
+
 /*********************************************************************************/
 /**
  * iCalcreator v2.14
