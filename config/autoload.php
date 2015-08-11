@@ -2,12 +2,10 @@
 
 /**
  * Contao Open Source CMS
- * 
- * Copyright (C) 2005-2012 Leo Feyer
- * 
- * @package ical_creator
- * @link    http://contao.org
- * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
+ *
+ * Copyright (c) 2005-2015 Leo Feyer
+ *
+ * @license LGPL-3.0+
  */
 
 
@@ -17,13 +15,15 @@
 ClassLoader::addClasses(array
 (
 	// Classes
-	'vcalendar'              => 'system/modules/ical_creator/vendor/iCalcreator.class.php',
-	'calendarComponent'      => 'system/modules/ical_creator/vendor/iCalcreator.class.php',
-	'vevent'                 => 'system/modules/ical_creator/vendor/iCalcreator.class.php',
-	'vtodo'                  => 'system/modules/ical_creator/vendor/iCalcreator.class.php',
-	'vjournal'               => 'system/modules/ical_creator/vendor/iCalcreator.class.php',
-	'vfreebusy'              => 'system/modules/ical_creator/vendor/iCalcreator.class.php',
-	'valarm'                 => 'system/modules/ical_creator/vendor/iCalcreator.class.php',
-	'vtimezone'              => 'system/modules/ical_creator/vendor/iCalcreator.class.php',
-	'iCalUtilityFunctions'   => 'system/modules/ical_creator/vendor/iCalcreator.class.php',
+	'calendarComponent'      => 'system/modules/ical_creator/vendor/lib/calendarComponent.class.php',
+	'iCalBase'               => 'system/modules/ical_creator/vendor/lib/iCalBase.class.php',
+	'iCaldateTime'           => 'system/modules/ical_creator/vendor/lib/iCaldateTime.class.php',
+	'iCalUtilityFunctions'   => 'system/modules/ical_creator/vendor/lib/iCalUtilityFunctions.class.php',
+	'valarm'                 => 'system/modules/ical_creator/vendor/lib/valarm.class.php',
+	'vcalendar'              => 'system/modules/ical_creator/vendor/lib/vcalendar.class.php',
+	'vevent'                 => 'system/modules/ical_creator/vendor/lib/vevent.class.php',
+	'vfreebusy'              => 'system/modules/ical_creator/vendor/lib/vfreebusy.class.php',
+	'vjournal'               => 'system/modules/ical_creator/vendor/lib/vjournal.class.php',
+	'vtimezone'              => 'system/modules/ical_creator/vendor/lib/vtimezone.class.php',
+	'vtodo'                  => 'system/modules/ical_creator/vendor/lib/vtodo.class.php',
 ));
